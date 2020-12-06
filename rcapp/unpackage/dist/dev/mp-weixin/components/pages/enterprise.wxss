@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+page {
+  background-color: #fff;
+}
+.eninfo_page {
+  padding-top: 40rpx;
+}
+.eninfo_page .info_box {
+  padding: 20rpx;
+}
+.eninfo_page .info {
+  margin-top: 20rpx;
+}
+.eninfo_page .info > view {
+  float: left;
+}
+.eninfo_page .info .logo {
+  width: 150rpx;
+  height: 150rpx;
+  overflow: hidden;
+  border-radius: 10rpx;
+  margin-right: 26rpx;
+  border: 1px solid #4ab8a5;
+}
+.eninfo_page .info .logo image {
+  width: 100%;
+  height: 100%;
+}
+.eninfo_page .info .msg {
+  width: 530rpx;
+}
+.eninfo_page .info .msg ._h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.eninfo_page .info .msg > view {
+  margin-bottom: 20rpx;
+}
+.eninfo_page .info .msg ._span {
+  font-size: 12px;
+  color: #666;
+  min-width: 130rpx;
+}
+.eninfo_page .info .msg ._span image {
+  width: 20rpx;
+  margin-right: 10rpx;
+}
+.eninfo_page .info .msg .ent_type {
+  margin-left: 30rpx;
+}
+.eninfo_page .welfare text {
+  float: left;
+  margin-right: 20rpx;
+  width: 120rpx;
+}
+.eninfo_page .welfare view {
+  float: left;
+  width: 120rpx;
+  text-align: center;
+  background-color: #F4F4F4;
+  border-radius: 5rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.eninfo_page .banner {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.eninfo_page .listpage_box .tits view {
+  float: left;
+  width: 50%;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ececec;
+}
+.eninfo_page .listpage_box .tits view text {
+  padding: 0 30rpx;
+}
+.eninfo_page .listpage_box .tits view .check {
+  border-bottom: 2px solid #4ab8a5;
+  color: #4ab8a5;
+  padding-bottom: 10rpx;
+}
+.eninfo_page .listpage_box .enterinfo {
+  padding: 0 20rpx;
+}
+.eninfo_page .listpage_box .enterinfo > view {
+  padding-bottom: 30rpx;
+}
+.eninfo_page .listpage_box .enterinfo ._h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20rpx 0;
+  padding: 0;
+}
+.eninfo_page .listpage_box .enterinfo .brief {
+  border-bottom: 1px solid #ececec;
+  font-size: 14px;
+}
+.eninfo_page .listpage_box .enterinfo .brief view {
+  height: 135rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  margin-bottom: 30rpx;
+}
+.eninfo_page .listpage_box .enterinfo .brief .more {
+  height: inherit;
+  -webkit-line-clamp: inherit;
+}
+.eninfo_page .listpage_box .enterinfo .brief image {
+  display: block;
+  width: 30rpx;
+  margin: auto;
+}
+.eninfo_page .listpage_box .enterinfo .address {
+  padding-left: 60rpx;
+  position: relative;
+}
+.eninfo_page .listpage_box .enterinfo .address image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 35rpx;
+  margin: auto;
+}
+.eninfo_page .listpage_box .enterinfo .address view {
+  line-height: 30rpx;
+  font-size: 14px;
+  width: 600rpx;
+  padding-top: 20rpx;
+}
+.eninfo_page .listpage_box .enterinfo .address .addressmore {
+  width: 20rpx;
+  left: 670rpx;
+}
+.eninfo_page .listpage_box .enterinfo .comtit {
+  margin-top: 30rpx;
+  border-top: 1px solid #ececec;
+  padding-top: 30rpx;
+}
+.eninfo_page .listpage_box .enterinfo .imgsbox {
+  width: 100%;
+  overflow-x: scroll;
+  height: 220rpx;
+  overflow-y: hidden;
+  margin-bottom: 30rpx;
+}
+.eninfo_page .listpage_box .enterinfo .imgsbox view {
+  height: 220rpx;
+  width: 300%;
+}
+.eninfo_page .listpage_box .enterinfo .imgsbox view image {
+  height: 100%;
+  margin-right: 10rpx;
+}
+.eninfo_page .listpage_box .enterinfo .phone > view {
+  float: left;
+  margin-right: 20rpx;
+  font-size: 14px;
+  line-height: 40rpx;
+}
+.eninfo_page .listpage_box .enterinfo .phone > view image {
+  width: 30rpx;
+  margin-right: 20rpx;
+}
+.eninfo_page .listpage_box .enterinfo .phone > view .btn {
+  color: #4ab8a5;
+  font-size: 14px;
+  padding-left: 10rpx;
+}
+.eninfo_page .listpage_box .postlist .titps {
+  border-bottom: 1px solid #ececec;
+}
+.eninfo_page .listpage_box .postlist .titps view {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 15rpx 0;
+  font-size: 14px;
+}
+.eninfo_page .listpage_box .postlist .titps view text {
+  letter-spacing: 3px;
+  color: #494949;
+}
+.eninfo_page .listpage_box .postlist .titps view image {
+  width: 30rpx;
+  margin-left: 10rpx;
+}
+.eninfo_page .listpage_box .postlist .postlsit_box > view {
+  padding: 20rpx 30rpx;
+  border-bottom: 1px solid #ececec;
+}
+.eninfo_page .listpage_box .postlist .postlsit_box > view ._h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 50rpx;
+}
+.eninfo_page .listpage_box .postlist .postlsit_box > view ._h3 text:last-child {
+  color: #4ab8a5;
+  float: right;
+  font-size: 18px;
+}
+.eninfo_page .listpage_box .postlist .postlsit_box > view .infos {
+  margin-top: 20rpx;
+}
+.eninfo_page .listpage_box .postlist .postlsit_box > view .infos text {
+  padding: 0 20rpx;
+  border-left: 2px solid #666666;
+  color: #3b3b3b;
+  font-size: 14px;
+  line-height: 15px;
+  height: 30rpx;
+  float: left;
+}
+.eninfo_page .listpage_box .postlist .postlsit_box > view .infos text:first-child {
+  border: 0;
+  padding-left: 0;
+}
+.kfbtn {
+  background-color: #fff;
+  padding: 20rpx 50rpx;
+  border-top: 1px solid #ccc;
+  margin-top: 100rpx;
+}
+.kfbtn > button {
+  line-height: 70rpx;
+  border-radius: 50rpx;
+  width: 100%;
+  background-color: #4ab8a5;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+.kfbtn > button image {
+  height: 35rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+

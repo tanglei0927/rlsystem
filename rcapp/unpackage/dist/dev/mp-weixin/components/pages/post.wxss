@@ -1,0 +1,158 @@
+
+page{
+	background-color: #fff;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+.postinfo_page .postjb_info.data-v-4a964e06 {
+  margin: 20rpx;
+  margin-bottom: 30rpx;
+  padding: 20rpx 30rpx;
+  border-radius: 10rpx;
+  box-shadow: 0px 0px 5px 0px #ccc;
+}
+.postinfo_page .postjb_info image.data-v-4a964e06 {
+  height: 20rpx;
+}
+.postinfo_page .postjb_info ._h3.data-v-4a964e06 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.postinfo_page .postjb_info ._h3 text.data-v-4a964e06 {
+  color: #4ab8a5;
+  float: right;
+  font-size: 18px;
+}
+.postinfo_page .postjb_info .dyinfo.data-v-4a964e06 {
+  margin: 10rpx 0;
+  font-size: 14px;
+  line-height: 40rpx;
+}
+.postinfo_page .postjb_info .dyinfo view.data-v-4a964e06 {
+  float: left;
+  margin-right: 30rpx;
+  color: #666;
+}
+.postinfo_page .postjb_info .dyinfo view image.data-v-4a964e06 {
+  margin-right: 15rpx;
+}
+.postinfo_page .postjb_info .welfare.data-v-4a964e06 {
+  margin-top: 20rpx;
+}
+.postinfo_page .postjb_info .welfare text.data-v-4a964e06 {
+  background-color: #F4F4F4;
+  padding: 5rpx 15rpx;
+  border-radius: 5rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 12px;
+  float: left;
+}
+.postinfo_page ._h2.data-v-4a964e06 {
+  line-height: 80rpx;
+  background-color: #ececec;
+  padding: 0 30rpx;
+  font-size: 16px;
+  font-weight: bold;
+}
+.postinfo_page ._h2 image.data-v-4a964e06 {
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.postinfo_page .noweight.data-v-4a964e06 {
+  font-weight: normal;
+}
+.postinfo_page .noweight text.data-v-4a964e06 {
+  margin-right: 20rpx;
+}
+.postinfo_page .ms_box.data-v-4a964e06 {
+  padding: 35rpx;
+  font-size: 14px;
+  line-height: 46rpx;
+}
+.postinfo_page .entinfo_box.data-v-4a964e06 {
+  position: relative;
+  padding: 30rpx;
+}
+.postinfo_page .entinfo_box > view.data-v-4a964e06 {
+  float: left;
+}
+.postinfo_page .entinfo_box .logo.data-v-4a964e06 {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 20rpx;
+  overflow: hidden;
+  border-radius: 10rpx;
+  border: 1px solid #4ab8a5;
+}
+.postinfo_page .entinfo_box .logo image.data-v-4a964e06 {
+  width: 100%;
+  height: 100%;
+}
+.postinfo_page .entinfo_box .entdetails.data-v-4a964e06 {
+  width: 525rpx;
+}
+.postinfo_page .entinfo_box .entdetails image.data-v-4a964e06 {
+  height: 30rpx;
+}
+.postinfo_page .entinfo_box .entdetails ._h3.data-v-4a964e06 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.postinfo_page .entinfo_box .entdetails .icons.data-v-4a964e06 {
+  color: #666;
+}
+.postinfo_page .entinfo_box .entdetails .icons image.data-v-4a964e06 {
+  margin-right: 15rpx;
+}
+.postinfo_page .entinfo_box > image.data-v-4a964e06 {
+  height: 40rpx;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.postinfo_page .mapbox.data-v-4a964e06 {
+  padding: 0 30rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.postinfo_page .mapbox map.data-v-4a964e06 {
+  width: 100%;
+  height: 510rpx;
+}
+.postinfo_page .kfbtn.data-v-4a964e06 {
+  background-color: #fff;
+  padding: 20rpx 50rpx;
+  border-top: 1px solid #ccc;
+  margin-top: 100rpx;
+}
+.postinfo_page .kfbtn > button.data-v-4a964e06, .postinfo_page .kfbtn > view.data-v-4a964e06 {
+  line-height: 70rpx;
+  border-radius: 50rpx;
+  width: 100%;
+  background-color: #4ab8a5;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+.postinfo_page .kfbtn > button image.data-v-4a964e06, .postinfo_page .kfbtn > view image.data-v-4a964e06 {
+  height: 35rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+

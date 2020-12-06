@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "components/pages/search",
+    "components/pages/enterprise",
+    "components/pages/post"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "将要获取您的位置信息，用于了解您当前位置"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
